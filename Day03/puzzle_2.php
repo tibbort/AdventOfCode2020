@@ -18,7 +18,7 @@ for ($i=0; $i<=count($slope_x)-1; $i++) {
 
 	// pair of coordinates
 	$current_slope_x = $slope_x[$i];
-    $current_slope_y = $slope_y[$i];
+	$current_slope_y = $slope_y[$i];
 	
 	// lines
 	foreach($lines as $num => $line) {
